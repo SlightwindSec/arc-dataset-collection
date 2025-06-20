@@ -12,6 +12,7 @@ This fork of the [arc-dataset-collection](https://github.com/your-original-repo-
 
 * **Latest Versions Only**: Replaced all older dataset versions with their latest available versions.
 * **Unified Naming**: Removed version suffixes (e.g., `_v2`, `_v3`) from file and directory names for clarity and simplicity. All files now reflect the most up-to-date version by default.
-* **Simplified Structure**: The repository structure has been cleaned up to reduce redundancy and make it easier to use the most current datasets without confusion.
 
 997M -> 952M: delete blank space in json.
+
+952M -> 830M: packing arc-heavy to jsonl and compress to zip.
